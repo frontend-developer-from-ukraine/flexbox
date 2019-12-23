@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    height: 500px;
+    background-color: salmon;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.item {
+    background-color: aquamarine;
+    border: 1px solid rebeccapurple;
+}
