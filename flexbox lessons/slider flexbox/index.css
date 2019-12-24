@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+.slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+.item {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 25%;
+    background-color: silver;
+    border: 1px solid red;
+    transition: all 0.2s;
+}
+
+.item:hover {
+    flex-basis: 50%;
+}
+
+
+/*https://www.youtube.com/watch?v=ZAHVgl9YIH0&list=PL3LQJkGQtzc4cCGLkwm1CmVahUtBkmJx9&index=4*/
