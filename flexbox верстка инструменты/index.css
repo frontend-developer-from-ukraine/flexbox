@@ -1,0 +1,42 @@
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.site-nav {
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    padding: 0.5em;
+    list-style: none;
+}
+
+.site-nav>li>a {
+    text-decoration: none;
+    display: block;
+    padding: 0.5em 0.7em;
+}
+
+.site-nav>li+li {
+    margin-left: 1.3em;
+}
+
+.site-nav>.nav-right {
+    margin-left: auto;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    width: 300px;
+    justify-content: center;
+}
+
+.tile {
+    display: flex;
+    justify-content: center;
+}
