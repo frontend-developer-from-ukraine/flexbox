@@ -1,0 +1,65 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+}
+
+.logo {
+    width: 75px;
+    height: auto;
+}
+
+.menu {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+}
+
+li {
+    padding-left: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+h4 {
+    padding-left: 25px;
+    margin: 0 auto;
+}
+
+.bmw {
+    background: url(http://autoboutique.cars.ua/img/upload/cache/q-85_w-1800_5c87b442863946_89763143.jpg) no-repeat center top/cover;
+    height: 1200px;
+}
+
+.mb {
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: white;
+    padding-top: 5px;
+}
+
+.pic1 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pic2 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h2 {
+    color: white;
+    align-items: center;
+}
