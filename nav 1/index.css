@@ -1,3 +1,24 @@
+.logo {
+    width: 75px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+}
+
+li {
+    padding-left: 25px;
+}
+
+.nav {
+    display: flex;
+}
+
 .container {
     width: 1080px;
     margin: 0 auto;
@@ -80,4 +101,8 @@ p {
 h2 {
     color: white;
     align-items: center;
+}
+
+.pic1:hover {
+    img: 25%;
 }
