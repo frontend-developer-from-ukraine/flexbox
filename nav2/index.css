@@ -1,0 +1,34 @@
+.logo {
+    width: 75px;
+    height: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    list-style: none;
+}
+
+li {
+    padding-left: 25px;
+}
+
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.two {
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    display: flex;
+}
+
+.tree {
+    display: flex;
+}
