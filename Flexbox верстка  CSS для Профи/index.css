@@ -1,0 +1,66 @@
+                    body {
+                        background: grey;
+                    }
+                    
+                    .container {
+                        width: 1080px;
+                        margin: 0 auto;
+                    }
+                    
+                    .site-nav {
+                        display: -ms-flexbox;
+                        /*ie, safari*/
+                        display: -webkit-flex;
+                        /*ie, safari*/
+                        display: flex;
+                        padding: .5em;
+                        /*сброс отступов слеао*/
+                        background: greenyellow;
+                        list-style: none;
+                    }
+                    
+                    .site-nav a {
+                        /*.site-nav > li > a - можно так перейти к а */
+                        background: grey;
+                        color: white;
+                        text-decoration: none;
+                        display: block;
+                        padding: .5em .7em;
+                    }
+                    
+                    .site-nav>li+li {
+                        /* ко всем кроме первого  */
+                        margin-left: 1.3em;
+                    }
+                    
+                    .site-nav>.nav-right {
+                        margin-left: auto;
+                        /* расстояние автомотически  */
+                    }
+                    
+                    .tile {
+                        background: lavenderblush;
+                        padding: 1.4em;
+                    }
+                    
+                    .flex {
+                        display: flex;
+                    }
+                    
+                    .flex>*+* {
+                        /* ко всем кроме первого  */
+                        /* сделали отступ от первого блока  */
+                        margin-top: 0;
+                        margin-left: 2em;
+                    }
+                    
+                    .column-sidebar {
+                        flex: 20%;
+                    }
+                    
+                    .column-main {
+                        flex: 80%;
+                        flex-grow: ;
+                        flex-shrink: ;
+                        flex-basis: ;
+                    }
